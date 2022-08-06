@@ -1,0 +1,89 @@
+.foot{
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    background-color: green;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px;
+    z-index: 99;  
+}
+#foot2{
+    color: white;
+    border-radius: 5px;
+    background-color: darkgreen;
+        position: absolute;
+        left: 0px;
+        bottom: 10px;
+        width: fit-content;
+        margin: 0px;
+        margin-left: 25px;
+        padding: 10px;
+        border: solid thin black;
+}
+#home{
+    border-radius: 5px;
+    background-color: darkgreen;
+    padding: 10px;
+    border: solid thin black;
+    margin: auto;
+    color: white;
+    
+}
+#foot2:hover{
+    cursor: pointer;
+}
+#foot1{
+    cursor: crosshair;
+    position: absolute;
+    right: 100px;
+}
+.arrow{
+    padding: 0 8px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .foot{
+        height: 30px;
+    }
+    #foot1{
+        transform: scale(0.8);
+        
+        position: absolute;
+        right: 0px;
+        bottom: 5px;
+        width: fit-content;
+        margin: 0px;
+        margin-right: 25px;
+        padding: 5px;
+        border: solid thin black;
+    }
+    #foot2{
+        transform: scale(0.8);
+        position: absolute;
+        left: 0px;
+        bottom: 8px;
+        width: fit-content;
+        margin: 0px;
+        margin-left: 25px;
+        padding: 5px;
+        border: solid thin black;
+    }
+    #home{
+        transform: scale(0.8);
+    }
+   
+  }
+
+
+  #itemno{
+    color: antiquewhite;
+    font-size: 20px;
+    background-color: red;
+    padding: 1px;
+    border-radius: 10px;
+  }

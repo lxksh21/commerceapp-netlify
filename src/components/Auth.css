@@ -1,0 +1,66 @@
+.auhead{
+    display: grid;
+    grid-template-columns: 25% 50% 50%;
+    align-items: center;
+    text-align: center;
+}
+#auhicon{
+    
+    margin-left: 35px;
+}
+
+.num{
+    height: 30px;
+    width: 50%;
+    align-items: center;
+    display: block;
+    margin: auto;
+    border: solid 2px black ;
+}
+
+#subau{
+    width: 60%;
+    background-color: green;
+    color: white;
+    margin: 10px 20%;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+#willy{
+    text-align: center;
+    color: grey;
+    text-decoration: underline;
+}
+.hid{
+    display: none;
+}
+#willy:hover + .hid{
+    display: block;
+    background-color: rgb(9, 107, 9);
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.num::-webkit-outer-spin-button,
+.num::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.auth{
+    position: fixed;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    background-color: aliceblue;
+    border: solid thin black;
+    
+}
+#num2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

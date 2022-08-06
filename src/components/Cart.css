@@ -1,0 +1,20 @@
+#carbo{
+    position: fixed;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+    background-color: aliceblue;
+    border: solid thin black;
+    
+}
+
+#item{
+    display: flex;
+}
+
+#finamt{
+    margin: auto;
+}
+#carhead{
+    text-align: center;
+}

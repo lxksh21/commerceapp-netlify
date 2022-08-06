@@ -1,0 +1,38 @@
+.head{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    height: 90px;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+
+#logo{
+    width: auto;
+    height: 50px;
+
+    margin-top: 25px;
+    margin-left: 25px;
+  margin-bottom: 0%;
+  position: absolute;
+   
+}
+
+#cart{
+    padding: 20px;
+  font-size: 50px;
+  color: whitesmoke;
+  right: 10px;
+  /* position: fixed; */
+  position: absolute;
+    top: 0px;
+
+}
+#cart:hover{
+    color: green;
+}
+
+#logo:hover{
+    color: rgb(48, 225, 48);
+}
